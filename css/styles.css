@@ -1,2 +1,114 @@
+/*  
+колір основного тексту 212121
+колір другорядний тексту 757575
+колір лого 000000
+колір акценту 2196F3
+колір телефону і пошти футер rgba(255, 255, 255, 0.6);
+колір при наведенні, адреси і лого  футер #FFFFFF
+колір фону білий background: #E5E5E5
+колір фону чорний background: #2F303A
+*/
+
+:root {
+  --bg-secondary: #e5e5e5;
+
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #757575;
+  --backgraund-main: #e5e5e5;
+  --backdraund-black: #2f303a;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --white-text-color: #ffffff;
+  --bg-button-color: #f5f4fa;
+}
+
 body {
+  background-color: var(--backgraund-main);
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+/* Index.html */
+.hero {
+  background-color: var(--backdraund-black);
+}
+.hero-title {
+  color: var(--white-text-color);
+}
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.features-text {
+  color: var(--secondary-text-color);
+}
+/* Portfolio.html */
+
+.list {
+  list-style: none;
+}
+/* logo */
+
+.logo {
+  color: #000000;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav {
+  color: var(--secondary-text-color);
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: var(--accent-color);
+}
+
+/* section */
+.button-list {
+  background-color: var(--bg-button-color);
+}
+.button-list:hover,
+.button-list:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--secondary-text-color);
+}
+
+.team-possition {
+  color: var(--secondary-text-color);
+}
+/* footer */
+.logo-foter {
+  color: var(--white-text-color);
+}
+.address {
+  color: var(--white-text-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+.contacts-main {
+  color: var(--contacts-text-color);
+}
+.contacts-main:hover,
+.contacts-main:focus {
+  color: var(--accent-color);
+}
+.footer-backgraund {
+  background-color: var(--backdraund-black);
 }
