@@ -15,7 +15,7 @@ body {
   background-color: var(--backgraund-main);
   color: var(--primary-text-color);
   text-decoration: none;
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -75,6 +75,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -87,6 +88,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -98,6 +100,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .auth-nav:hover,
 .auth-nav:focus {
@@ -109,8 +112,8 @@ body {
   background-color: var(--bg-button-color);
   font-family: inherit;
   font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button-list:hover,
 .button-list:focus {
@@ -120,15 +123,16 @@ line-height: 1.62;
 .section-title {
   color: var(--primary-text-color);
   font-weight: bold;
-font-size: 18px;
-line-height: 2;
-
+  font-size: 18px;
+  line-height: 2;
+  text-decoration: none;
 }
 
 .section-text {
   color: var(--secondary-text-color);
   font-size: 16px;
-line-height: 1.87;
+  line-height: 1.87;
+  text-decoration: none;
 }
 .team-title {
   font-weight: bold;
@@ -153,6 +157,7 @@ line-height: 1.87;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .address {
   color: var(--white-text-color);
@@ -168,7 +173,7 @@ line-height: 1.87;
   color: var(--contacts-text-color);
   font-size: 14px;
   line-height: 1.71;
- }
+  text-decoration: none;
 }
 .contacts-main:hover,
 .contacts-main:focus {
