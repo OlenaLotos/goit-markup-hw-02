@@ -67,6 +67,9 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 /* logo */
 
 .logo {
@@ -158,6 +161,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+.address-text {
+  font-style: normal;
+}
+.address-city {
+  font-style: normal;
 }
 .address {
   color: var(--white-text-color);
