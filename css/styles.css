@@ -1,3 +1,13 @@
+* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --bg-secondary: #e5e5e5;
 
@@ -18,7 +28,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
+.container {
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
 /* Index.html */
 .hero {
   background-color: var(--backdraund-black);
@@ -33,6 +49,8 @@ body {
   text-transform: uppercase;
 }
 .button-hero {
+  border-radius: 4px;
+  padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--white-text-color);
   font-family: inherit;
